@@ -1,0 +1,19 @@
+#pa {
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    width: 30px;
+    margin: 15px 20px;
+  }
+  .cell{
+      height: 50px;
+      width:50px;
+      display: inline-block;
+      border: 1px solid;
+  }
+   #resultDisplay,#gameScore,#resetButton{
+    justify-content: center;
+    margin: 15px 220px;
+    height :25px;
+    width:auto;
+  
+  }
